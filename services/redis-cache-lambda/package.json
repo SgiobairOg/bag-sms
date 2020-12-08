@@ -1,0 +1,13 @@
+{
+    "name": "@bag-sms/redis-cache-lambda",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "deploy": "serverless deploy"
+    },
+    "devDependencies": {
+        "serverless-bundle": "^3.2.1",
+        "serverless-dotenv-plugin": "^3.1.0",
+        "serverless-offline": "^6.8.0"
+    }
+}

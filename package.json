@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "name": "bag-sms",
+    "workspaces": [
+        "packages/*",
+        "services/*"
+    ],
+    "scripts": {}
+}

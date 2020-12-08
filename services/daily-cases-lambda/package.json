@@ -1,0 +1,17 @@
+{
+    "name": "@bag-sms/daily-cases-lambda",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "deploy": "serverless deploy"
+    },
+    "dependencies": {
+        "@bag-sms/redis-cache-lambda": "^0.0.0",
+        "aws-sdk": "^2.775.0"
+    },
+    "devDependencies": {
+        "serverless-bundle": "^3.2.1",
+        "serverless-dotenv-plugin": "^3.1.0",
+        "serverless-offline": "^6.8.0"
+    }
+}
